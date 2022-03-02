@@ -1,5 +1,6 @@
 # Regex tutorial for matching a complex password 
 In this special tutorial we will learn the regex for marching a complex password. We will also learn and understand how each part of the expression and what is responsible for controlling which part of the password.
+/(?=.*[a-z])(?=.*[0-9])(?-.*[A-Z])(?.*[!?])[a-zA-Z0-9!?]{8,}
 
 ## Summary
 Welcome, this tutorial describes the regex sequence of characters that defines how to create a complex password. This password must be 8 characters, at least one Uppercase, Atleast one number, at least one lowercase case,and at least one special character. Regex are frequently used to validate input, as when included in code or search algorithms. I am going to show you a bunch of really cool Regex tricks and clean coding tips which will make working with Regex in JavaScript much easier.
